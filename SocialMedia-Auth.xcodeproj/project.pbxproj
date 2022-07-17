@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C361313288352F700B3AC9D /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C361312288352F700B3AC9D /* FacebookCore */; };
+		4C361315288352F700B3AC9D /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 4C361314288352F700B3AC9D /* FacebookLogin */; };
+		4C59082E2882D62E005DF4B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59082D2882D62E005DF4B3 /* AppDelegate.swift */; };
+		4C5908302882D62E005DF4B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59082F2882D62E005DF4B3 /* SceneDelegate.swift */; };
+		4C5908322882D62E005DF4B3 /* SocialLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5908312882D62E005DF4B3 /* SocialLoginVC.swift */; };
+		4C5908352882D62E005DF4B3 /* SocialLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5908332882D62E005DF4B3 /* SocialLogin.storyboard */; };
+		4C5908382882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C5908362882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodeld */; };
+		4C59083A2882D62F005DF4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5908392882D62F005DF4B3 /* Assets.xcassets */; };
+		4C59083D2882D62F005DF4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C59083B2882D62F005DF4B3 /* LaunchScreen.storyboard */; };
+		4C59084A28830CD4005DF4B3 /* SocialLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59084928830CD4005DF4B3 /* SocialLoginViewModel.swift */; };
+		4CCC00D9288357F4000ADA4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC00D8288357F4000ADA4F /* Constants.swift */; };
+		4CCC00DB2883CFC0000ADA4F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC00DA2883CFC0000ADA4F /* KeychainHelper.swift */; };
+		4CCC00DD2883E60B000ADA4F /*  GoogleServices-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC00DC2883E60B000ADA4F /*  GoogleServices-Info.plist */; };
+		4CCC00E1288404E8000ADA4F /* InstaAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC00E0288404E8000ADA4F /* InstaAPIManager.swift */; };
+		4CCC00E328840577000ADA4F /* InstagramHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC00E228840577000ADA4F /* InstagramHelper.swift */; };
+		4CCC00E728841593000ADA4F /* InstaWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC00E628841593000ADA4F /* InstaWebViewVC.swift */; };
+		4CCC00E9288415AA000ADA4F /* InstaWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC00E8288415AA000ADA4F /* InstaWebView.storyboard */; };
+		9BA65A5A80A2C7E542C9F5B5 /* Pods_SocialMedia_Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB199AF501D35DCA1DCDE5 /* Pods_SocialMedia_Auth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37DEE2B89614B071A4AC312D /* Pods-SocialMedia-Auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMedia-Auth.debug.xcconfig"; path = "Target Support Files/Pods-SocialMedia-Auth/Pods-SocialMedia-Auth.debug.xcconfig"; sourceTree = "<group>"; };
+		4C59082A2882D62E005DF4B3 /* SocialMedia-Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialMedia-Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C59082D2882D62E005DF4B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C59082F2882D62E005DF4B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C5908312882D62E005DF4B3 /* SocialLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginVC.swift; sourceTree = "<group>"; };
+		4C5908342882D62E005DF4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SocialLogin.storyboard; sourceTree = "<group>"; };
+		4C5908372882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialMedia_Auth.xcdatamodel; sourceTree = "<group>"; };
+		4C5908392882D62F005DF4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C59083C2882D62F005DF4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C59083E2882D62F005DF4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5908472882FC8C005DF4B3 /* SocialMedia-Auth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SocialMedia-Auth.entitlements"; sourceTree = "<group>"; };
+		4C59084928830CD4005DF4B3 /* SocialLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewModel.swift; sourceTree = "<group>"; };
+		4CCC00D8288357F4000ADA4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CCC00DA2883CFC0000ADA4F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		4CCC00DC2883E60B000ADA4F /*  GoogleServices-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = " GoogleServices-Info.plist"; sourceTree = "<group>"; };
+		4CCC00E0288404E8000ADA4F /* InstaAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaAPIManager.swift; sourceTree = "<group>"; };
+		4CCC00E228840577000ADA4F /* InstagramHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramHelper.swift; sourceTree = "<group>"; };
+		4CCC00E628841593000ADA4F /* InstaWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaWebViewVC.swift; sourceTree = "<group>"; };
+		4CCC00E8288415AA000ADA4F /* InstaWebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstaWebView.storyboard; sourceTree = "<group>"; };
+		55FB199AF501D35DCA1DCDE5 /* Pods_SocialMedia_Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialMedia_Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA320BE919CD873CF645C85 /* Pods-SocialMedia-Auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMedia-Auth.release.xcconfig"; path = "Target Support Files/Pods-SocialMedia-Auth/Pods-SocialMedia-Auth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5908272882D62E005DF4B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C361313288352F700B3AC9D /* FacebookCore in Frameworks */,
+				4C361315288352F700B3AC9D /* FacebookLogin in Frameworks */,
+				9BA65A5A80A2C7E542C9F5B5 /* Pods_SocialMedia_Auth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF9866F6221EE45044AC113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FB199AF501D35DCA1DCDE5 /* Pods_SocialMedia_Auth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CEF078030161E681C7F12A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2B89614B071A4AC312D /* Pods-SocialMedia-Auth.debug.xcconfig */,
+				8EA320BE919CD873CF645C85 /* Pods-SocialMedia-Auth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C5908212882D62E005DF4B3 = {
+			isa = PBXGroup;
+			children = (
+				4C59082C2882D62E005DF4B3 /* SocialMedia-Auth */,
+				4C59082B2882D62E005DF4B3 /* Products */,
+				3CEF078030161E681C7F12A8 /* Pods */,
+				1AF9866F6221EE45044AC113 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C59082B2882D62E005DF4B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C59082A2882D62E005DF4B3 /* SocialMedia-Auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C59082C2882D62E005DF4B3 /* SocialMedia-Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4C5908472882FC8C005DF4B3 /* SocialMedia-Auth.entitlements */,
+				4CCC00DE2883F23A000ADA4F /* Helper */,
+				4CCC00DF2883F251000ADA4F /* AppDelegates */,
+				4C59084828830C50005DF4B3 /* SocialLogin */,
+				4C5908392882D62F005DF4B3 /* Assets.xcassets */,
+				4C59083B2882D62F005DF4B3 /* LaunchScreen.storyboard */,
+				4CCC00DC2883E60B000ADA4F /*  GoogleServices-Info.plist */,
+				4C59083E2882D62F005DF4B3 /* Info.plist */,
+				4C5908362882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodeld */,
+			);
+			path = "SocialMedia-Auth";
+			sourceTree = "<group>";
+		};
+		4C59084828830C50005DF4B3 /* SocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				4C5908312882D62E005DF4B3 /* SocialLoginVC.swift */,
+				4C5908332882D62E005DF4B3 /* SocialLogin.storyboard */,
+				4C59084928830CD4005DF4B3 /* SocialLoginViewModel.swift */,
+			);
+			path = SocialLogin;
+			sourceTree = "<group>";
+		};
+		4CCC00DE2883F23A000ADA4F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC00E428840FFD000ADA4F /* InstagramHelper */,
+				4CCC00DA2883CFC0000ADA4F /* KeychainHelper.swift */,
+				4CCC00D8288357F4000ADA4F /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4CCC00DF2883F251000ADA4F /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				4C59082D2882D62E005DF4B3 /* AppDelegate.swift */,
+				4C59082F2882D62E005DF4B3 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		4CCC00E428840FFD000ADA4F /* InstagramHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC00E52884155D000ADA4F /* InstagramWebViewAuth */,
+				4CCC00E0288404E8000ADA4F /* InstaAPIManager.swift */,
+				4CCC00E228840577000ADA4F /* InstagramHelper.swift */,
+			);
+			path = InstagramHelper;
+			sourceTree = "<group>";
+		};
+		4CCC00E52884155D000ADA4F /* InstagramWebViewAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC00E628841593000ADA4F /* InstaWebViewVC.swift */,
+				4CCC00E8288415AA000ADA4F /* InstaWebView.storyboard */,
+			);
+			path = InstagramWebViewAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5908292882D62E005DF4B3 /* SocialMedia-Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5908412882D62F005DF4B3 /* Build configuration list for PBXNativeTarget "SocialMedia-Auth" */;
+			buildPhases = (
+				452B3F651D24DFBB007F9DA3 /* [CP] Check Pods Manifest.lock */,
+				4C5908262882D62E005DF4B3 /* Sources */,
+				4C5908272882D62E005DF4B3 /* Frameworks */,
+				4C5908282882D62E005DF4B3 /* Resources */,
+				C04E5C59D42626DCA817B00C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SocialMedia-Auth";
+			packageProductDependencies = (
+				4C361312288352F700B3AC9D /* FacebookCore */,
+				4C361314288352F700B3AC9D /* FacebookLogin */,
+			);
+			productName = "SocialMedia-Auth";
+			productReference = 4C59082A2882D62E005DF4B3 /* SocialMedia-Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5908222882D62E005DF4B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4C5908292882D62E005DF4B3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C5908252882D62E005DF4B3 /* Build configuration list for PBXProject "SocialMedia-Auth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5908212882D62E005DF4B3;
+			packageReferences = (
+				4C3613052883525900B3AC9D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 4C59082B2882D62E005DF4B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5908292882D62E005DF4B3 /* SocialMedia-Auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5908282882D62E005DF4B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC00E9288415AA000ADA4F /* InstaWebView.storyboard in Resources */,
+				4C59083D2882D62F005DF4B3 /* LaunchScreen.storyboard in Resources */,
+				4C59083A2882D62F005DF4B3 /* Assets.xcassets in Resources */,
+				4C5908352882D62E005DF4B3 /* SocialLogin.storyboard in Resources */,
+				4CCC00DD2883E60B000ADA4F /*  GoogleServices-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452B3F651D24DFBB007F9DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialMedia-Auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04E5C59D42626DCA817B00C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMedia-Auth/Pods-SocialMedia-Auth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMedia-Auth/Pods-SocialMedia-Auth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialMedia-Auth/Pods-SocialMedia-Auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5908262882D62E005DF4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCC00E1288404E8000ADA4F /* InstaAPIManager.swift in Sources */,
+				4C5908322882D62E005DF4B3 /* SocialLoginVC.swift in Sources */,
+				4C59084A28830CD4005DF4B3 /* SocialLoginViewModel.swift in Sources */,
+				4C5908382882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodeld in Sources */,
+				4C59082E2882D62E005DF4B3 /* AppDelegate.swift in Sources */,
+				4CCC00DB2883CFC0000ADA4F /* KeychainHelper.swift in Sources */,
+				4C5908302882D62E005DF4B3 /* SceneDelegate.swift in Sources */,
+				4CCC00D9288357F4000ADA4F /* Constants.swift in Sources */,
+				4CCC00E328840577000ADA4F /* InstagramHelper.swift in Sources */,
+				4CCC00E728841593000ADA4F /* InstaWebViewVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C5908332882D62E005DF4B3 /* SocialLogin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5908342882D62E005DF4B3 /* Base */,
+			);
+			name = SocialLogin.storyboard;
+			sourceTree = "<group>";
+		};
+		4C59083B2882D62F005DF4B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C59083C2882D62F005DF4B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C59083F2882D62F005DF4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C5908402882D62F005DF4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5908422882D62F005DF4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DEE2B89614B071A4AC312D /* Pods-SocialMedia-Auth.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SocialMedia-Auth/SocialMedia-Auth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialMedia-Auth/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SocialLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aakash.SocialMedia-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C5908432882D62F005DF4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA320BE919CD873CF645C85 /* Pods-SocialMedia-Auth.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SocialMedia-Auth/SocialMedia-Auth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialMedia-Auth/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SocialLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aakash.SocialMedia-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5908252882D62E005DF4B3 /* Build configuration list for PBXProject "SocialMedia-Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C59083F2882D62F005DF4B3 /* Debug */,
+				4C5908402882D62F005DF4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5908412882D62F005DF4B3 /* Build configuration list for PBXNativeTarget "SocialMedia-Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5908422882D62F005DF4B3 /* Debug */,
+				4C5908432882D62F005DF4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C3613052883525900B3AC9D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C361312288352F700B3AC9D /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3613052883525900B3AC9D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		4C361314288352F700B3AC9D /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3613052883525900B3AC9D /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4C5908362882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C5908372882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodel */,
+			);
+			currentVersion = 4C5908372882D62E005DF4B3 /* SocialMedia_Auth.xcdatamodel */;
+			path = SocialMedia_Auth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C5908222882D62E005DF4B3 /* Project object */;
+}

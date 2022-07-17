@@ -1,0 +1,47 @@
+PODS:
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - GoogleSignIn (6.2.2):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.3.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - Swifter (2.5.0)
+
+DEPENDENCIES:
+  - GoogleSignIn
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: f6888d61500f46ca6d1814fe2624056339eda986
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  GoogleSignIn: 3c68388ac221f379676e8f1cb115df3aaf73b93f
+  GTMAppAuth: 4d8f864896f3646f0c33baf38a28362f4c601e15
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  Swifter: 4c2f8cf320c2f751c10128f841d8e9bd8609d988
+
+PODFILE CHECKSUM: 40b08e64bdfe9bf504300fca00fd9cb8e8ba4d21
+
+COCOAPODS: 1.11.3
